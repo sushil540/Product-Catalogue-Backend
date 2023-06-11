@@ -1,3 +1,3 @@
 import axios from 'axios'
 
-export default axios.create({baseURL:'http://127.0.0.1:4080'})
+export default axios.create({baseURL:'https://product-catalogue-app-mern.vercel.app/'})
