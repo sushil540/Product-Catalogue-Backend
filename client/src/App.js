@@ -9,8 +9,7 @@ const App = (props) =>{
   }
 
   useEffect(()=>{
-    const token = JSON.parse(localStorage.getItem('token'))
-      if(token){
+      if(localStorage.getItem('token')){
         handleIsLoggedIn()
       } 
   },[])
